@@ -3,12 +3,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     text-align: center;
-    background-color: bisque;
     color: #a14d03;
+    background-color: bisque;
+    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -19,7 +20,6 @@ nav {
     border: 2px solid #ff7700;
     background-color: bisque;
     padding: 20px;
-    box-sizing: border-box;
 }
 /*I am resetting the default list styles, removing the bullets and displaying
 the menu on a horizontal line.*/
@@ -32,12 +32,11 @@ nav ul {
 }
 nav li {
     border: 2px solid #ff7700;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 nav a {
     text-decoration: none;
-    color: #ff7700;
-    font-weight: 700;
+    font-weight: 500;
 }
 nav a:hover {
     color: #a14d03;
@@ -48,7 +47,6 @@ iframe#home {
     width: 100%;
     height: 85vh;
     border: 2px solid #ff7700;
-    box-sizing: border-box;
 }
 
 div.space {
@@ -59,10 +57,10 @@ div.pages {
     width: 100%;
 }
 
+/*INDEX.HTML*/
 img.logo {
     display: block;
     margin: auto;
-    height: 59vh;
     width: 59vh;
     border: 2px solid #ff7700;
     display: flex;
@@ -75,6 +73,7 @@ img.minilogo {
     border: 2px solid #ff7700;
 }
 
+/*ABOUT.HTML*/
 img.about {
     display: block;
     margin: auto;
@@ -84,6 +83,7 @@ img.about {
     justify-content: center;
 }
 
+/*CONTACT.HTML*/
 iframe#map {
     border: 2px solid #ff7700;
     box-sizing: border-box;
