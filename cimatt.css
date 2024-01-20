@@ -34,12 +34,13 @@ nav li {
     border: 2px solid #ff7700;
     padding: 5px 20px;
 }
+
 nav a {
     text-decoration: none;
     font-weight: 500;
 }
 nav a:hover {
-    color: #a14d03;
+    color: #ff7700;
 }
 
 /*BOTTOM PART OF THE SCREEN*/
@@ -81,6 +82,18 @@ img.about {
     border: 2px solid #ff7700;
     display: flex;
     justify-content: center;
+}
+
+/*PROJECTS.HTML*/
+a.project {
+    text-decoration: none;
+    font-weight: 500;
+}
+a.project:hover {
+    color: #ff7700;
+}
+p.not-available {
+    font-style: italic;
 }
 
 /*CONTACT.HTML*/

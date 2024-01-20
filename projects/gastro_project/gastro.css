@@ -1,0 +1,65 @@
+/*I am assigning a font family to all the text elements in the website, as well as a background colour and the box-sizing property set to border-box. */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-align: center;
+    color: #022974;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+}
+
+div {
+    height: 30vh;
+    border: 2px solid #022974;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+/*NAVIGATION MENU*/
+nav {
+    height: 10vh;
+    border: 2px solid #ff7700;
+    background-color: bisque;
+    padding: 20px;
+}
+/*I am resetting the default list styles, removing the bullets and displaying
+the menu on a horizontal line.*/
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    border: 2px solid #ff7700;
+    padding: 5px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover {
+    color: #ff7700;
+}
+
+/*BOTTOM PART OF THE SCREEN*/
+iframe#home {
+    width: 100%;
+    height: 85vh;
+    border: 2px solid #ff7700;
+}
+
+div.space {
+    height: 10vh;
+}
+
+div.pages {
+    width: 100%;
+    scrollbar-color: #ff7700 bisque;
+}
