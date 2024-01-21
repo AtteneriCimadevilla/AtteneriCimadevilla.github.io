@@ -74,6 +74,14 @@ img.about {
     justify-content: center;
 }
 
+/*GROUP.HTML*/
+img.group {
+    width: 80%;
+}
+img.group_pq {
+    width: 50%;
+}
+
 /*PROJECTS.HTML*/
 a.project {
     text-decoration: none;

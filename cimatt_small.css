@@ -66,9 +66,14 @@ img.logo {
 }
 
 /*ABOUT.HTML*/
-    img.about {
+img.about {
     height: 60vh;
     border: 2px solid #ff7700;
+}
+
+/*GROUP.HTML*/
+img.group {
+    width: 80%;
 }
 
 /*PROJECTS.HTML*/
