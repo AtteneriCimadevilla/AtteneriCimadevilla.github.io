@@ -1,7 +1,7 @@
 /*I am assigning a font family to all the text elements in the website, as well as a background colour and the box-sizing property set to border-box. */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.95em;
+    font-size: 0.98em;
     text-align: center;
     color: #a14d03;
     background-color: bisque;
@@ -9,7 +9,7 @@
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     text-align: center;
 }
 
@@ -30,7 +30,8 @@ nav ul {
 }
 nav li {
     width: 100%;
-    border: 2px solid #ff7700;
+    margin: 3px;
+    border: 1px solid #ff7700;
     padding: 5px 20px;
 }
 nav a {
@@ -44,14 +45,14 @@ nav a:hover {
 /*BOTTOM PART OF THE SCREEN*/
 iframe#home {
     width: 100%;
-    height: 70vh;
+    height: 67vh;
     border: 2px solid #ff7700;
 }
 div.space {
     height: 10vh;
 }
 div.pages {
-    width: 60%;
+    width: 100%;
 }
 
 /*INDEX.HTML*/
@@ -71,9 +72,9 @@ img.minilogo {
 
 /*ABOUT.HTML*/
 img.about {
-    margin: auto;
+/*    margin: auto; */
     height: 60vh;
     border: 2px solid #ff7700;
-    display: flex;
-    justify-content: center;
+ /*   display: flex;
+    justify-content: center; */
 }
