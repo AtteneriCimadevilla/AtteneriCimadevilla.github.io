@@ -47,9 +47,11 @@ iframe#home {
     height: 70vh;
     border: 2px solid #ff7700;
 }
-
 div.space {
     height: 10vh;
+}
+div.pages {
+    width: 60%;
 }
 
 /*INDEX.HTML*/
@@ -69,9 +71,8 @@ img.minilogo {
 
 /*ABOUT.HTML*/
 img.about {
-    display: block;
     margin: auto;
-    height: 60%;
+    height: 60vh;
     border: 2px solid #ff7700;
     display: flex;
     justify-content: center;

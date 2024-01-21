@@ -47,9 +47,11 @@ iframe#home {
     height: 85vh;
     border: 2px solid #ff7700;
 }
-
 div.space {
     height: 10vh;
+}
+div.pages ´{
+    width: 100%;
 }
 
 /*INDEX.HTML*/
@@ -155,12 +157,12 @@ input[type=submit]:hover {
     box-shadow: 2px 2px 2px #db7d2b;
 }
   
-/* Clear floats after the rows 
+/* Clear floats after the rows */
 .row::after {
     content: "";
     display: table;
     clear: both;
-}*/
+}
   
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other. */
 @media only screen and (max-width: 800px) {
