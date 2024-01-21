@@ -75,6 +75,9 @@ img.about {
 img.group {
     width: 80%;
 }
+img.group_pq {
+    width: 50%;
+}
 
 /*PROJECTS.HTML*/
 a.project {

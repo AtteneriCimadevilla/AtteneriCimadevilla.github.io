@@ -176,10 +176,10 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is more than 1000px wide, make the left column width fixed. */
-@media only screen and (min-width: 1000px) {
+/* @media only screen and (min-width: 1000px) {
     .container {
         width: 1000px;
         display: flex;
         justify-content: center;
     }
-}
+} */
