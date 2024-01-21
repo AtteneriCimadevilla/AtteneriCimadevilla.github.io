@@ -55,7 +55,7 @@ div.pages {
     width: 100%;
 }
 
-/*INDEX.HTML*/
+/*HOME.HTML*/
 img.logo {
     display: block;
     margin: auto;
@@ -63,11 +63,6 @@ img.logo {
     border: 2px solid #ff7700;
     display: flex;
     justify-content: center;
-}
-
-img.minilogo {
-    width: 10vh;
-    border: 2px solid #ff7700;
 }
 
 /*ABOUT.HTML*/
@@ -89,6 +84,12 @@ p.not-available {
 }
 
 /*CONTACT.HTML*/
+
+img.minilogo {
+    width: 10vh;
+    border: 2px solid #ff7700;
+}
+
 iframe#map {
     border: 2px solid #ff7700;
     box-sizing: border-box;

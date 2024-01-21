@@ -9,7 +9,7 @@
 }
 
 div {
-    height: 30vh;
+    height: auto;
     border: 2px solid #022974;
     background-color: cornflowerblue;
     padding: 20px;
@@ -57,6 +57,7 @@ iframe#home {
 
 div.space {
     height: 10vh;
+    border: none;
 }
 
 div.pages {
