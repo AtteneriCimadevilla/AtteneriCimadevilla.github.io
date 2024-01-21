@@ -52,11 +52,6 @@ div.space {
     height: 10vh;
 }
 
-div.pages {
-    width: 100%;
-    scrollbar-color: #ff7700 bisque;
-}
-
 /*INDEX.HTML*/
 img.logo {
     display: block;

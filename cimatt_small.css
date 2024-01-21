@@ -9,7 +9,7 @@
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -52,16 +52,11 @@ div.space {
     height: 10vh;
 }
 
-div.pages {
-    width: 100%;
-    scrollbar-color: #ff7700 bisque;
-}
-
 /*INDEX.HTML*/
 img.logo {
     display: block;
     margin: auto;
-    width: 59vh;
+    width: 59%;
     border: 2px solid #ff7700;
     display: flex;
     justify-content: center;
