@@ -87,3 +87,93 @@ a.project:hover {
 p.not-available {
     font-style: italic;
 }
+
+/*CONTACT.HTML*/
+iframe#map {
+    border: 2px solid #ff7700;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 90%;
+    border-radius: 2px; 
+    border: 1px solid #ff7700;
+    padding: 1vh;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+    text-align: left;
+}
+  
+.col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #a14d03;
+    border-radius: 3px;
+    resize: vertical;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+textarea {
+    height:30vh;
+}
+
+/*submit button*/
+input[type=submit] {
+    background: bisque;
+    color: #a14d03;
+    border: 1px solid #a14d03;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #db7d2b;
+}
+
+input[type=submit]:hover {
+    background: #ff7700;
+    color: #a14d03;
+    border: 1px solid #a14d03;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #db7d2b;
+}
+  
+/* Clear floats after the rows */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other. */
+@media only screen and (max-width: 800px) {
+    .col-25, .col-75 {
+      width: 100%;
+      margin-top: 6px;
+    }
+}
+
+/* Responsive layout - when the screen is more than 1000px wide, make the left column width fixed. */
+@media only screen and (min-width: 1000px) {
+    .container {
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+}
