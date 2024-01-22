@@ -13,9 +13,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 1.2em;
+}
+
 /*NAVIGATION MENU*/
 nav {
-    height: 10vh;
+    height: 11vh;
     border: 2px solid #ff7700;
     background-color: bisque;
     padding: 20px;
@@ -31,7 +35,7 @@ nav ul {
 }
 nav li {
     border: 2px solid #ff7700;
-    padding: 5px 20px;
+    padding: 5px 15px;
 }
 nav a {
     text-decoration: none;
@@ -79,19 +83,22 @@ img.group_sm {
 }
 
 /*PROJECTS.HTML*/
+img.project {
+    width: 60%;
+}
 a.project {
     text-decoration: none;
     font-weight: 500;
+    color: #a14d03;
 }
 a.project:hover {
     color: #ff7700;
 }
-p.not-available {
+em {
     font-style: italic;
 }
 
 /*CONTACT.HTML*/
-
 img.minilogo {
     width: 10vh;
     border: 2px solid #ff7700;
@@ -170,12 +177,3 @@ input[type=submit]:hover {
     display: table;
     clear: both;
 }
-
-/* Responsive layout - when the screen is more than 1000px wide, make the left column width fixed. */
-/* @media only screen and (min-width: 1000px) {
-    .container {
-        width: 1000px;
-        display: flex;
-        justify-content: center;
-    }
-} */
