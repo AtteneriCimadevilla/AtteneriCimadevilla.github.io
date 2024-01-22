@@ -21,7 +21,7 @@ h2 {
 nav {
     height: auto;
     border: 2px solid #ff7700;
-    background-color: bisque;
+    background-color: #bisque;
     padding: 20px;
 }
 /*I am resetting the default list styles, removing the bullets and displaying
@@ -61,17 +61,13 @@ div.pages {
 
 /*HOME.HTML*/
 img.logo {
-    display: block;
-    margin: auto;
     width: 59%;
     border: 2px solid #ff7700;
-    display: flex;
-    justify-content: center;
 }
 
 /*ABOUT.HTML*/
 img.about {
-    height: 60vh;
+    height: 60vw;
     border: 2px solid #ff7700;
 }
 
@@ -84,6 +80,9 @@ img.group_sm {
 }
 
 /*PROJECTS.HTML*/
+img.project {
+    width: 60%;
+}
 a.project {
     text-decoration: none;
     font-weight: 500;
