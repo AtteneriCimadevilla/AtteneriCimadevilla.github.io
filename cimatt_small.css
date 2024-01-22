@@ -21,7 +21,7 @@ h2 {
 nav {
     height: auto;
     border: 2px solid #ff7700;
-    background-color: #bisque;
+    background-color: bisque;
     padding: 20px;
 }
 /*I am resetting the default list styles, removing the bullets and displaying

@@ -60,12 +60,8 @@ div.pages ´{
 
 /*HOME.HTML*/
 img.logo {
-    display: block;
-    margin: auto;
     width: 59vh;
     border: 2px solid #ff7700;
-    display: flex;
-    justify-content: center;
 }
 
 /*ABOUT.HTML*/
@@ -89,7 +85,6 @@ img.project {
 a.project {
     text-decoration: none;
     font-weight: 500;
-    color: #a14d03;
 }
 a.project:hover {
     color: #ff7700;
