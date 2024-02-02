@@ -1,29 +1,22 @@
 /*I am assigning a font family to all the text elements in the website, as well as a background colour and the box-sizing property set to border-box. */
 * {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.95em;
     text-align: center;
-    color: #022974;
-    background-color: cornflowerblue;
+    color: #0241e1;
+    background-color: #deeefd;
     box-sizing: border-box;
 }
 
-div {
-    height: auto;
-    border: 2px solid #022974;
-    background-color: cornflowerblue;
-    padding: 20px;
-}
-
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 /*NAVIGATION MENU*/
 nav {
-    height: 10vh;
-    border: 2px solid #ff7700;
-    background-color: bisque;
+    height: 9vh;
+    border: 2px solid #0241e1;
+    background-color: #deeefd;
     padding: 20px;
 }
 /*I am resetting the default list styles, removing the bullets and displaying
@@ -36,23 +29,23 @@ nav ul {
     justify-content: space-around;
 }
 nav li {
-    border: 2px solid #ff7700;
+    border: 2px solid #0241e1;
     padding: 5px 20px;
 }
 
 nav a {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 800;
 }
 nav a:hover {
-    color: #ff7700;
+    color: #0241e1;
 }
 
 /*BOTTOM PART OF THE SCREEN*/
 iframe#home {
     width: 100%;
     height: 85vh;
-    border: 2px solid #ff7700;
+    border: 2px solid #0241e1;
 }
 
 div.space {
@@ -62,5 +55,110 @@ div.space {
 
 div.pages {
     width: 100%;
-    scrollbar-color: #ff7700 bisque;
+    scrollbar-color: #0241e1 #deeefd;
+}
+
+/*HOME.HTML*/
+img.logo {
+    width: 59vh;
+    
+}
+img.picture {
+    width: 59vh;
+    border: 2px solid #0241e1;
+}
+
+/*ABOUT.HTML*/
+img.about {
+    height: 60vh;
+    border: 2px solid #0241e1;
+}
+
+/*GROUP.HTML*/
+img.group {
+    width: 80%;
+}
+img.group_sm {
+    width: 50%;
+    border: 2px solid #ff7700;
+}
+
+/*CONTACT.HTML*/
+img.minilogo {
+    width: 10vh;
+    border: none;
+}
+
+iframe#map {
+    border: 2px solid #0241e1;
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 90%;
+    border-radius: 2px; 
+    border: 1px solid #0241e1;
+    padding: 1vh;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+    text-align: left;
+}
+  
+.col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #0241e1;
+    border-radius: 3px;
+    resize: vertical;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+textarea {
+    height:20vh;
+}
+
+/*submit button*/
+input[type=submit] {
+    background: #deeefd;
+    color: #0241e1;
+    border: 1px solid #0241e1;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #db7d2b;
+}
+
+input[type=submit]:hover {
+    background: #ff7700;
+    color: #a14d03;
+    border: 1px solid #a14d03;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #db7d2b;
+}
+  
+/* Clear floats after the rows */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
