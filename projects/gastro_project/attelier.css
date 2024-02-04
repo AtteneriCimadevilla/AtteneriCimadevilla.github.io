@@ -10,6 +10,12 @@
 h1 {
     font-size: 2.5em;
 }
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1em;
+}
 
 /*NAVIGATION MENU*/
 nav {
@@ -121,6 +127,17 @@ img.group_sm {
     border: 2px solid #ff7700;
 }
 
+/*BOOK.HTML*/
+div.menu {
+    height: 200%;
+    overflow: hidden;
+}
+
+
+
+
+
+
 /*CONTACT.HTML*/
 img.minilogo {
     width: 10vh;
@@ -207,4 +224,3 @@ input[type=submit]:hover {
     input[type=submit] {
         margin-top: 0;
     }
-  }
