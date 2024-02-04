@@ -7,35 +7,32 @@
     background-color: #deeefd;
     box-sizing: border-box;
 }
+
 h1 {
     font-size: 2.5em;
 }
 
 /*NAVIGATION MENU*/
 nav {
+    height: 9vh;
     border: 2px solid #0241e1;
     background-color: #deeefd;
     padding: 20px;
-    float: left;
-    width: 20%;
-    height: 98vh;
-    overflow: auto;
 }
+/*I am resetting the default list styles, removing the bullets and displaying
+the menu on a horizontal line.*/
 nav ul {
     list-style: none;
     padding: 5px;
     margin: 0;
-    float: left;
-    text-align: center;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 nav li {
-    margin: 5px 0;
     border: 2px solid #0241e1;
     padding: 5px 20px;
-    display: block;
-    width: 100%;
 }
+
 nav a {
     text-decoration: none;
     font-weight: 800;
@@ -44,51 +41,31 @@ nav a:hover {
     color: #0241e1;
 }
 
-/*RIGHT PART OF THE SCREEN*/
+/*BOTTOM PART OF THE SCREEN*/
 iframe#home {
-    float: left;
-    width: 80%;
-    height: 98vh;
+    width: 100%;
+    height: 85vh;
     border: 2px solid #0241e1;
 }
+
 div.space {
     height: 10vh;
     border: none;
 }
+
 div.pages {
     width: 100%;
     scrollbar-color: #0241e1 #deeefd;
 }
 
-/* Responsive design, for small screen devices: */
-@media only screen and (max-width: 700px) {
-    nav {
-        width: 100%;
-        height: auto;
-    }
-    iframe#home {
-        width: 100%;
-        height: 100vh;
-    }
-}
-
 /*HOME.HTML*/
 img.logo {
     width: 59vh;
+    
 }
 img.picture {
     width: 59vh;
     border: 2px solid #0241e1;
-}
-/* Responsive design, for small screen devices: */
-@media only screen and (max-width: 700px) {
-    img.logo {
-        width: 59vw;
-    }
-    img.picture {
-        width: 59vw;
-        border: 2px solid #0241e1;
-    }
 }
 
 /*ABOUT.HTML*/
@@ -111,36 +88,43 @@ img.minilogo {
     width: 10vh;
     border: none;
 }
+
 iframe#map {
     border: 2px solid #0241e1;
     box-sizing: border-box;
     width: 400px;
     height: 300px;
 }
+
 .container {
     display: flex;
     justify-content: center;
 }
+
 .form {
     width: 90%;
-    border-radius: 2px;
+    border-radius: 2px; 
     border: 1px solid #0241e1;
     padding: 1vh;
 }
+
 .row {
     width: 100%;
 }
+
 .col-25 {
     float: left;
     width: 35%;
     margin-top: 6px;
     text-align: left;
 }
+  
 .col-75 {
     float: left;
     width: 65%;
     margin-top: 6px;
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 6px;
@@ -150,9 +134,11 @@ input[type=text], select, textarea {
     font-size: 0.8em;
     text-align: left;
 }
+
 textarea {
-    height: 20vh;
+    height:20vh;
 }
+
 /*submit button*/
 input[type=submit] {
     background: #deeefd;
@@ -161,6 +147,7 @@ input[type=submit] {
     border-radius: 3px;
     box-shadow: 2px 2px 2px #db7d2b;
 }
+
 input[type=submit]:hover {
     background: #ff7700;
     color: #a14d03;
@@ -168,6 +155,7 @@ input[type=submit]:hover {
     border-radius: 20px;
     box-shadow: 2px 2px 2px #db7d2b;
 }
+  
 /* Clear floats after the rows */
 .row::after {
     content: "";
