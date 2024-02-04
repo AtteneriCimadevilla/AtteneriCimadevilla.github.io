@@ -71,6 +71,10 @@ div.pages {
     width: 100%;
     scrollbar-color: #0241e1 #deeefd;
 }
+img.minilogo {
+    width: 15vw;
+    border: none;
+}
 
 /* Responsive design, for small screen devices: */
 @media only screen and (max-width: 600px) {
@@ -127,11 +131,7 @@ img.group_sm {
     border: 2px solid #ff7700;
 }
 
-/*BOOK.HTML*/
-div.menu {
-    height: 200%;
-    overflow: hidden;
-}
+
 
 
 
@@ -139,10 +139,7 @@ div.menu {
 
 
 /*CONTACT.HTML*/
-img.minilogo {
-    width: 10vh;
-    border: none;
-}
+
 iframe#map {
     margin-top: 1vh;
     border: 2px solid #0241e1;
