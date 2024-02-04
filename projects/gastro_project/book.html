@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table</title>
+    <link rel="stylesheet" href="attelier.css">
+</head>
+
+<body>
+    <div class="smallspace"></div>
+    <img class="minilogo" src="images_attelier/logo.jpg" alt="Attelier">
+    <h2>Book a Table</h2>
+
+    <div class="container">
+        <div class="form">
+            <form action="/action_page.php" >
+                <div class="row">
+                    <div class="col-35">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col-65">
+                        <input type="text" id="name" name="name" placeholder="Name...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-35">
+                        <label for="phone">Phone Number:</label>
+                    </div>
+                    <div class="col-65">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" placeholder="777777777">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-35">
+                        <label for="email">Email address:</label>
+                    </div>
+                    <div class="col-65">
+                        <input type="email" id="email" name="email" placeholder="email@example.com">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-35">
+                        <label for="date">Date:</label>
+                    </div>
+                    <div class="col-65">
+                        <input type="date" id="date" name="date">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-35">
+                        <label for="time">Time:</label>
+                    </div>
+                    <div class="col-65">
+                        <input type="time" id="time" name="time" min="13:00" max="22:00" value="14:00">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-35">
+                        <label for="guests">Number of Guests:</label>
+                    </div>
+                    <div class="col-65">
+                        <select id="guests" name="guests">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-35">
+                        <label for="message">Let us now if you have any dietary requirements:</label>
+                    </div>
+                    <div class="col-65">
+                        <textarea id="message" name="message" placeholder="Message..."></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit Booking">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -131,14 +131,7 @@ img.group_sm {
     border: 2px solid #ff7700;
 }
 
-
-
-
-
-
-
-
-/*CONTACT.HTML*/
+/*BOOK.HTML AND CONTACT.HTML*/
 
 iframe#map {
     margin-top: 1vh;
@@ -177,7 +170,7 @@ iframe#map {
     display: table;
     clear: both;
 }
-input[type=text], input[type=email], select, textarea {
+input[type=text], input[type=tel], input[type=email], input[type=date], input[type=time], select, textarea {
     width: 100%;
     padding: 6px;
     border: 1px solid #0241e1;
@@ -185,6 +178,9 @@ input[type=text], input[type=email], select, textarea {
     resize: vertical;
     font-size: 0.8em;
     text-align: left;
+}
+hr {
+    border: 1px solid;
 }
 textarea {
     height: 15vh;
