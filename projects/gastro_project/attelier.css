@@ -25,7 +25,7 @@ nav {
     float: left;
     width: 30%;
     height: 98vh;
-    overflow: auto;
+    overflow: hidden;
 }
 nav ul {
     list-style: none;
@@ -36,11 +36,13 @@ nav ul {
     width: 100%;
 }
 nav li {
+    width: 100%;
     margin: 5px 0;
     border: 2px solid #0241e1;
     padding: 5px 20px;
     display: block;
-    width: 100%;
+    float: left;
+    overflow: hidden;
 }
 nav a{
     font-weight: 800;
@@ -50,6 +52,17 @@ a {
 }
 a:hover {
     color: #ff7700;
+}
+.submenu {
+    display: none;
+    position: static;
+    left: 0;
+    background-color: #a14d03;
+    width: 100%;
+    z-index: 1;
+}
+nav li:hover .submenu, .submenu a {
+    display: block;
 }
 
 /*RIGHT/BOTTOM PART OF THE SCREEN*/
@@ -132,7 +145,6 @@ img.group_sm {
 }
 
 /*BOOK.HTML AND CONTACT.HTML*/
-
 iframe#map {
     margin-top: 1vh;
     border: 2px solid #0241e1;

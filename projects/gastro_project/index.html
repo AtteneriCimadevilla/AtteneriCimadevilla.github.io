@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attelier</title>
     <link rel="stylesheet" href="attelier.css">
+    <!-- I am using Font Awesome icons in the submenu: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body style="height: 100%;">
@@ -14,7 +16,13 @@
             <li><a href="home.html" target="mainframe">Home</a></li>
             <li><a href="about.html" target="mainframe">About Us</a></li>
             <li><a href="group.html" target="mainframe">Cima Group</a></li>
-            <li><a href="menu.html" target="mainframe">Our Menu</a></li>
+            <li>
+                <a href="menu.html" target="mainframe">Our Menu <i class="fa fa-caret-down"></i></a>
+                <div class="submenu">
+                    <a href="menu_lunch.html">Lunch Menu</a>
+                    <a href="menu_dinner.html">Dinner Menu</a>
+                </div>
+            </li>
             <li><a href="book.html" target="mainframe">Book a Table</a></li>
             <li><a href="contact.html" target="mainframe">Contact</a></li>
         </ul>
