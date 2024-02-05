@@ -19,7 +19,6 @@ h3 {
 
 /*NAVIGATION MENU*/
 nav {
-
     background-color: #deeefd;
     padding: 20px;
     float: left;
@@ -40,7 +39,6 @@ nav li {
     margin: 5px 0;
     border: 2px solid #0241e1;
     padding: 5px 20px;
-    display: block;
     float: left;
     overflow: hidden;
 }
@@ -56,10 +54,6 @@ a:hover {
 .submenu {
     display: none;
     position: static;
-    left: 0;
-    background-color: #a14d03;
-    width: 100%;
-    z-index: 1;
 }
 nav li:hover .submenu, .submenu a {
     display: block;
